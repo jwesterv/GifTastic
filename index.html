@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 class="display-4">Buttons - Animal Style</h3>
+            <p class="lead">Type in an animal and see what comes up!</p>
+        </div>
+    </div>
+    <!--Div where created buttons will be placed-->
+    <div class="row" id="button-div">
+
+    </div>
+    <!--Submit form to grab user input to create animal button-->
+    <div class="row">
+        <div class="col-md-4">
+            <form>
+                <div class="form-group">
+                    <input type="animal" class="form-control" id="" aria-describedby="animal" placeholder="Enter animal">
+                    <small id="description" class="form-text text-muted">Add an animal button!</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <!--Div where gifs get appended-->
+        <div class="col-md-8" id="gif-div">
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>
